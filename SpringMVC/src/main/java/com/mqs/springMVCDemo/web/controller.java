@@ -9,6 +9,6 @@ public class controller {
 	
 	@RequestMapping("goIndex.do")
 	public String goIndex() {
-		return "/index.jsp";
+		return "index.jsp";
 	}
 }
